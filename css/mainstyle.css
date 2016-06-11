@@ -1,0 +1,37 @@
+* {box-sizing: border-box;
+}
+.text {
+	margin-left: 35%;
+}
+.submit {
+	margin-left: 1em;
+}
+div.results {
+	margin-top: 1.5em;
+	padding-top: 0;
+}
+.thumbWrap {
+	height: 12em;
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	clear: both;
+}
+/*.thumb {
+	height: 8em;
+	width: 20em;
+	margin-left: 3em;
+
+}*/
+.caption {
+	text-align: center;
+	font-size: 1em;
+	color: black;
+	/*width: 18em;
+	margin-left: 4em;*/
+}
+
+a {
+	text-decoration: none;
+}
