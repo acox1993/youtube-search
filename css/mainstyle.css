@@ -1,37 +1,53 @@
 * {box-sizing: border-box;
 }
-.text {
-	margin-left: 35%;
+body {
+	background-color: blue;
 }
+.textWrapper {
+	text-align: center;
+	color: white;
+}
+.submitWrapper {
+	text-align: center;
+}
+
 .submit {
-	margin-left: 1em;
+	margin-left: .1em;
+	height: 2em;
+	box-shadow: .4em .4em .5em black;
 }
 div.results {
 	margin-top: 1.5em;
 	padding-top: 0;
+	width: 100%;
+	float: left;
+	background-color: white;
 }
 .thumbWrap {
-	height: 12em;
-	width: 30%;
-	display: inline-block;
-	float: left;
-	margin: 0 auto;
-	clear: both;
+    display: inline-block;
+    float: left;
+    height: 270px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 320px;
 }
-/*.thumb {
-	height: 8em;
-	width: 20em;
-	margin-left: 3em;
 
-}*/
 .caption {
 	text-align: center;
 	font-size: 1em;
 	color: black;
-	/*width: 18em;
-	margin-left: 4em;*/
 }
 
 a {
 	text-decoration: none;
+}
+.nextWrapper {
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+button {
+	height:2em;
+	width: 5em;
+	box-shadow: .4em .4em .5em black;
 }
